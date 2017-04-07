@@ -10,6 +10,6 @@ const date = new Date();
 //mocha testing
 describe('isWeekday()', function() {
    it ("should return 'true' if today's day is a weekday", function() {
-      assert.equal(isWeekdayFunctionTest(date), true); 
+      assert.equal(isWeekdayFunctionTest(date), false); 
    });  
 });
